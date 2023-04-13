@@ -60,7 +60,7 @@ void K()
     digitalWrite(LED_BUILTIN, HIGH);   // line of K
   delay(600);                       
   digitalWrite(LED_BUILTIN, LOW);     // Short Pause
-  delay(200);                     
+  delay(600);                     
                     
 }
 
@@ -107,12 +107,12 @@ void S()
   delay(200);                      
     digitalWrite(LED_BUILTIN, HIGH);   // Dot of S
   delay(200);                       
-  digitalWrite(LED_BUILTIN, LOW);    // Long pause
-  delay(200);               
+  digitalWrite(LED_BUILTIN, LOW);    // Medium pause
+  delay(600);               
 }
 
 void SPACE()
 {
-   delay(1200); 
+   delay(800); 
 }
   
